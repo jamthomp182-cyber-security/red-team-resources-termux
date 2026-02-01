@@ -15,25 +15,6 @@ The script:
 
 ---
 
-## 📂 Directory Layout
-
-All tools are installed into:
-
-~/attacker_tools/
-
-Inside that folder, tools are grouped by category:
-
-attacker_tools/
-├── web_app_security/
-│   ├── sqlmap/
-│   ├── nikto/
-│   └── sqlmap.zip
-├── reconnaissance/
-├── password_cracking/
-├── vulnerability_scanning/
-└── install_log.txt
-
----
 
 ## ⚙️ Requirements
 
