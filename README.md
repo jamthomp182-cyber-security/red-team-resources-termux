@@ -43,10 +43,6 @@ Before running the script, ensure the following tools are installed:
 - zip
 - python3
 
-On Debian/Ubuntu/Kali:
-
-sudo apt update && sudo apt install -y git zip python3
-
 On Termux:
 
 pkg install git zip python
@@ -62,11 +58,11 @@ cd red-team-resources-termux
 
 Make the script executable:
 
-chmod +x install.sh  
+chmod +x install_tools.sh  
 
 Run it as a normal user (not root):
 
-./install.sh  
+./install_tools.sh  
 
 ❗ If you try to run as root, the script will exit for safety.
 
